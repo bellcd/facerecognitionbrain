@@ -1,13 +1,13 @@
 import React, {
   Component
 } from 'react';
-import Navigation from './components/Navigation/Navigation';
-import Logo from './components/Logo/Logo';
-import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
+import Navigation from './components/navigation/Navigation';
+import Logo from './components/logo/Logo';
+import ImageLinkForm from './components/imagelinkform/ImageLinkForm';
 import './App.css';
-import Rank from './components/Rank/Rank';
+import Rank from './components/rank/Rank';
 import Particles from 'react-particles-js';
-import FaceRecognition from './components/facerecognition/FaceRecognition.js';
+import FaceRecognition from './components/facerecognition/FaceRecognition';
 import SignIn from './components/SignIn/SignIn';
 import Register from './components/Register/Register';
 
