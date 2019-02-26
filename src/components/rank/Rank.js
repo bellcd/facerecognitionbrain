@@ -7,11 +7,13 @@ const Rank = ({
   return (
     <div>
       <div className='white f3'>
-        {`${name}, your current entry count is...`}
+        {`${name}, you have tried to detect faces in`} <span className='b'>{entries}</span> {`pictures!`}
       </div>
+
       <div className='white f3'>
         {entries}
       </div>
+
     </div>
   );
 }
