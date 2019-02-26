@@ -9,11 +9,6 @@ const Rank = ({
       <div className='white f3'>
         {`${name}, you have tried to detect faces in`} <span className='b'>{entries}</span> {`pictures!`}
       </div>
-
-      <div className='white f3'>
-        {entries}
-      </div>
-
     </div>
   );
 }

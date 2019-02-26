@@ -10,6 +10,7 @@ import Particles from 'react-particles-js';
 import FaceRecognition from './components/facerecognition/FaceRecognition';
 import SignIn from './components/SignIn/SignIn';
 import Register from './components/Register/Register';
+import example from './components/example/Example';
 
 const initialState = {
   input: '',
@@ -155,6 +156,7 @@ class App extends Component {
           ? <React.Fragment>
               <Logo />
               <Rank name={this.state.user.name} entries={this.state.user.entries} />
+              <Example />
               <ImageLinkForm
                 onInputChange={this.onInputChange}
                 onPictureSubmit={this.onPictureSubmit}
