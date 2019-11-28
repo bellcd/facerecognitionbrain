@@ -89,7 +89,7 @@ class App extends Component {
     this.setState({
       imageUrl: this.state.input
     })
-    fetch('https://intense-earth-22055.herokuapp.com/imageurl', {
+    fetch('https://face-bellcd-api.herokuapp.com/imageurl', {
         method: 'post',
         headers: {
           "Content-Type": "application/json"
@@ -101,7 +101,7 @@ class App extends Component {
       .then(response => response.json())
       .then(response => {
         if (response) {
-          fetch('https://intense-earth-22055.herokuapp.com/image', {
+          fetch('https://face-bellcd-api.herokuapp.com/image', {
               method: 'put',
               headers: {
                 "Content-Type": "application/json"
